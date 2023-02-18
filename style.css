@@ -1,0 +1,66 @@
+body {
+    background-image: url(https://us-east-1.linodeobjects.com/gunaxin/2017/07/Jordan-Air.jpg);
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  
+  h2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    background-image: url(https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4036060.png);
+    
+    margin-left: 125px;
+    margin-top: 20px;
+    
+    
+    /*for demo*/
+    display:inline-block;
+    vertical-align:middle;
+  }
+  .profile{
+    width:100%;
+  }
+  .established {
+    font-style: italic;
+  }
+  
+  h1, p {
+    text-align: center;
+    color: white;
+  }
+  .logo, .footer {
+    color: white;
+
+  }
+  .menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  h1 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
+    display: inline-block;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%
+  }
