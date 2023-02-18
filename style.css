@@ -1,36 +1,42 @@
 body {
     background-image: url(https://us-east-1.linodeobjects.com/gunaxin/2017/07/Jordan-Air.jpg);
-    font-family: sans-serif;
+    
   }
   
   h1 {
-    font-size: 40px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    font-family: acumin-pro;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: none;
+    line-height: 1.4em;
+    font-size: 60px;
   }
+  .profile {
   
-  
-  h2 {
-    width: 200px;
-    height: 200px;
+    display: inline-block;
+
+    
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
-    background-image: url(https://a.espncdn.com/combiner/i?img=/i/headshots/college-football/players/full/4036060.png);
-    
-    margin-left: 125px;
-    margin-top: 20px;
+    width: 50%;
+ 
     
     
-    /*for demo*/
-    display:inline-block;
-    vertical-align:middle;
+    
   }
-  .profile{
-    width:100%;
-  }
+ 
+  
   .established {
     font-style: italic;
   }
   
-  h1, p {
+  h1{
     text-align: center;
     color: white;
   }
@@ -47,11 +53,9 @@ body {
     max-width: 500px;
   }
   
-  h1 {
-    font-family: Impact, serif;
-  }
+ 
   
-  .item p {
+  .item {
     display: inline-block;
   }
   
