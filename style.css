@@ -22,7 +22,11 @@ h1 {
     width: 50%;
 
 }
+.menu {
+  text-align: center;
 
+
+}
 
 .text, .menu{
     text-align: center;
