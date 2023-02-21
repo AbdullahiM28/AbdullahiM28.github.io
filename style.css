@@ -1,70 +1,43 @@
 body {
-    background-image: url(https://us-east-1.linodeobjects.com/gunaxin/2017/07/Jordan-Air.jpg);
-    
-  }
-  
-  h1 {
-    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 600;
-    line-height: 1.2em;
-    font-family: acumin-pro;
-    font-weight: 500;
-    font-style: normal;
-    text-transform: none;
-    line-height: 1.4em;
-    font-size: 60px;
-  }
-  .profile {
-  
-    display: inline-block;
+    background-color: #0f1717;
+}
+.logo, .text, .main-navigation {
+  color: white;
 
-    
-    border-radius: 50%;
+}
+footer, .footer {
+color: white;
+text-align: center;
+}
+h1 {
+  font-family: sans-sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+  .profile {
+
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
-    width: 50%;
- 
-    
-    
-    
-  }
- 
-  
-  .established {
-    font-style: italic;
-  }
-  
-  h1{
+    width: 30%;
+
+}
+
+
+.text, .menu{
     text-align: center;
     color: white;
   }
-  .logo, .footer {
+.logo, .footer {
     color: white;
+    a:active {
+      color: blue;
+  }
+a  {
+  color: white;
+}
 
-  }
-  .menu {
-    width: 80%;
-    background-color: burlywood;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
-  }
-  
- 
-  
-  .item {
-    display: inline-block;
-  }
-  
-  .flavor, .dessert {
-    text-align: left;
-    width: 75%;
-  }
-  
-  .price {
-    text-align: right;
-    width: 25%
-  }
+
+.links:hover {
+  color: black;
+}
