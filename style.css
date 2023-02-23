@@ -35,14 +35,19 @@ h1 {
   }
 .logo, .footer {
     color: white;
-    a:active {
-      color: blue;
-  }
-a  {
-  color: white;
+}
+    
+
+/* link colors */
+
+a:hover {
+  color: blue;
+
+}
+a:active {
+  color: blue;
+}
+a {
+  color: blue; 
 }
 
-
-.links:hover {
-  color: black;
-}
