@@ -1,20 +1,40 @@
 body {
     background-color: #0f1717;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-.logo, .text {
+.logo {
+  text-align: left;
+  font-size: 18px;
+margin-left: auto;
+margin-right: auto;
+
+margin-top: 1%;
   color: white;
+  font-family: "Calibri";
+
+}
+.subtitle {
   text-align: center;
+  font-size: 28px;
+  margin-top; 1%;
+margin-left: auto;
+margin-right: auto;
+
+margin-top: 1%;
+  color: white;
+  font-family: "Calibri";
 }
 
 footer, .footer {
 color: white;
-text-align: center;
+text-align: right;
   position: fixed;
-  left: 0;
+  right: 5%;
   bottom: 0;
   width: 100%;
   color: white;
-  text-align: center;
+
 }
 
 h1 {
@@ -24,39 +44,42 @@ h1 {
 }
   .profile {
     float: right;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin: auto;
     width: 35%;
 
 
 }
-.menu {
-  text-align: right;
-  margin-right: 5%;
-  margin-bottom: 5%
+.alot {
+  text-align: center;
+  font-size: 18px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+  font-family: "Calibri";
+}
 }
 .text{
     text-align: left;
     font-size: 18px;
-    margin:auto;
     color: white;
-    font-family: "Calibri"
+    font-family: "Calibri";
   }
-.logo, .footer {
+.footer {
     color: white;
-    font-family: Roboto
+    font-family: "Roboto";
 }
 
 /* Add a black background color to the top navigation */
 .menu {
-  background-color: #333;
+  background-color: #0f1717;
   overflow: hidden;
+  margin-right: 3%;
 }
 
 /* Style the links inside the navigation bar */
 .menu a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -71,9 +94,13 @@ h1 {
 }
 
 /* Add a color to the active/current link */
-.menu a.active {
+.menu a:active {
   background-color: #04AA6D;
   color: white;
 }
-
+.text a {
+  color: 	#009cfc;
+}
+.text a:hover {
+  color: #1100fc;
 /* link colors */
