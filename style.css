@@ -37,9 +37,11 @@ h1 {
   margin-bottom: 5%
 }
 .text{
-    text-align: center;
+    text-align: left;
+    font-size: 18px;
+    margin:auto;
     color: white;
-    font-family: "Roboto"
+    font-family: "Calibri"
   }
 .logo, .footer {
     color: white;
