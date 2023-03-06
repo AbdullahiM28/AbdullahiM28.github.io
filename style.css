@@ -11,7 +11,7 @@ margin-right: 50%;
 width: 60vw;
 margin-top: 5%;
   color: white;
-  font-family: "Calibri";
+  font-family: "Calibri", sans-serif;
 
 }
 .name {
@@ -22,7 +22,7 @@ margin-right: 50%;
 width: 60vw;
 margin-top: 5%;
   color: white;
-  font-family: "Calibri";
+  font-family: "Calibri", sans-serif;
 
 }
 .subtitle {
@@ -35,7 +35,7 @@ color: white;
 
 margin-top: 1%;
   color: white;
-  font-family: "Calibri";
+  font-family: "Calibri", sans-serif;
 }
 
 footer, .footer {
@@ -50,7 +50,7 @@ text-align: right;
 }
 
 h1 {
-  font-family: sans-sans-serif;
+  font-family: "Calibri", sans-serif;
   text-align: left;
   font-size: 60px;
 }
@@ -68,18 +68,18 @@ h1 {
   margin-left: 10%;
   margin-right: 10%;
   color: white;
-  font-family: "Calibri";
+  font-family: "Calibri", sans-serif;
 }
 }
 .text{
     text-align: left;
     font-size: 18px;
     color: white;
-    font-family: "Calibri";
+    font-family: "Calibri", sans-serif;
   }
 .footer {
     color: white;
-    font-family: "Roboto";
+    font-family: "Calibri", sans-serif;
 }
 
 /* Add a black background color to the top navigation */
