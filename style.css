@@ -7,9 +7,20 @@ body {
   text-align: left;
   font-size: 18px;
 margin-left: auto;
-margin-right: auto;
+margin-right: 50%;
+width: 60vw;
+margin-top: 5%;
+  color: white;
+  font-family: "Calibri";
 
-margin-top: 1%;
+}
+.name {
+  text-align: center;
+  font-size: 38px;
+margin-left: auto;
+margin-right: 50%;
+width: 60vw;
+margin-top: 5%;
   color: white;
   font-family: "Calibri";
 
@@ -44,13 +55,13 @@ h1 {
   font-size: 60px;
 }
   .profile {
-    float: right;
-  display: block;
-  margin: auto;
-    width: 35%;
-
+    position: absolute;
+     top: 25%;
+     right: 5%;
+     display: block;
 
 }
+
 .alot {
   text-align: center;
   font-size: 18px;
