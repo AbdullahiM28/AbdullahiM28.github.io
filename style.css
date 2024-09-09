@@ -4,19 +4,22 @@ body {
 .logo {
   width: 40vw;
   margin: auto;
+  margin-top: 15%;
 }
 .name {
-  margin-top: 30%;
   text-align: center;
-  width: 40vw;
+  margin-left: 7%;
+  width: 35vw;
   color: #dcdee0;
-  font-size: 2.25rem;
+  font-size: 2.15rem;
   font-family: 'Open Sans', sans-serif;
 }
 
 .paragraphs {
   font-size: 1.15rem;
   color: #dcdee0;
+  width: 42vw;
+  line-height: 130%;
 }
 
 .typewrite {
