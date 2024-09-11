@@ -61,7 +61,13 @@ div {
   margin-bottom: 1rem;
 }
 
+.here {
+  color: #573ef7;
+}
 
+.here:hover {
+  color: #3314fa;
+}
 
 /* ROBOTO FONT CSS */
 
