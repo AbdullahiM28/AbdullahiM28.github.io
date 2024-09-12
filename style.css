@@ -147,14 +147,15 @@ div {
 
 /* MEDIA QUERIES BELOW */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 550px) {
   .paragraphs {
-    font-size: 2.5vw;
+    font-size: 2.75vw;
   }
   .socials {
     font-size: 2.25vw;
   }
   .logo {
-    font-size: 65%;
+    margin-top: 25vh;
+    font-size: 2.5vw;
   }
 }
