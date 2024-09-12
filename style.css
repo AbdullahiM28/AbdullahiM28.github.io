@@ -11,12 +11,12 @@ body {
   margin-left: 7%;
   width: 35vw;
   color: #dcdee0;
-  font-size: 2.15rem;
+  font-size: 2.15em;
   font-family: 'Open Sans', sans-serif;
 }
 
 .paragraphs {
-  font-size: 1.15rem;
+  font-size: 1.15em;
   color: #dcdee0;
   width: 42vw;
   line-height: 130%;
@@ -38,12 +38,13 @@ text-align: right;
   bottom: 0;
   width: 100%;
   font-family: "Open Sans", Roboto;
+  opacity: 0.2;
 
 }
 
 
 .socials {
-  font-size: 1.15rem;
+  font-size: 1rem;
   padding-top: 1rem;
   color: #b7babd;
   text-align: center;
@@ -144,4 +145,16 @@ div {
 }
 
 
-/* ROBOTO FONT CSS */
+/* MEDIA QUERIES BELOW */
+
+@media only screen and (max-width: 650px) {
+  .paragraphs {
+    font-size: 2.5vw;
+  }
+  .socials {
+    font-size: 2.25vw;
+  }
+  .logo {
+    font-size: 65%;
+  }
+}
