@@ -46,10 +46,28 @@ text-align: right;
 .socials {
   font-size: 1rem;
   padding-top: 1rem;
+
   color: #b7babd;
-  text-align: center;
   word-spacing: 2em;
+  /* below is the css for image links */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  /* above is the css for image links */
 }
+
+.links::after {
+  content: "";
+  clear: both;
+
+}
+
+.images {
+  width: 2.75em;
+  height: 2.75em;
+}
+/*
 .links {
   color: #dcdee0;
 }
@@ -57,6 +75,7 @@ text-align: right;
 .links:hover {
 color: #a7a9d1;
 }
+*/
 
 div {
   margin-bottom: 1rem;
