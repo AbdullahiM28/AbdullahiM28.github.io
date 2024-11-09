@@ -1,5 +1,5 @@
 # AbdullahiM28.github.io
 Hello
-my simple website
+this is my simple website
 
 
