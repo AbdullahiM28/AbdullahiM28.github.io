@@ -1,53 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdullahi M</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="/goat.ico"/>
-    <!-- ROBOTO FONT -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <!-- ROBOTO FONT ABOVE-->
-</head>
-<body>
-  <div class="logo">
-    <p class="name"><strong>Hey, I'm Abdullahi. 👋🏻</strong></p>
-    <!-- TEXT ANIMATION HERE -->
-    <div class="paragraphs roboto-regular">
-      <div>I'm
-        <a class="typewrite roboto-bold" data-period="2000" 
-            data-type='[ "a yasuo one-trick", 
-                      "an aspiring dev", "a pineapple on pizza hater 🤮" ]'>
-          <span class="wrap"></span>
-        </a>
-        with a major in Computational Mathematics at the University of Waterloo.
-      </div>
-      <!-- TEXT ANIMATION -->
-      <div>
-        I'm based in <a class="location roboto-bold">Toronto, Ontario. </a>In my free time, I enjoy working out,
-        playing basketball and video games, and the occassional overpriced beverage.
-      </div>
-      <div>Want to send me a message? 
-          You can reach me <a class="here" href="mailto:a58moham@uwaterloo.ca">here</a>
-      </div> 
-    </div>
-    <div class="socials roboto-regular">
-      <a class="links" href="https://github.com/AbdullahiM28" target="_blank">
-        <img class="images" src="githubfav.png">
-      </a>
-      <a class="links" href="https://www.linkedin.com/in/abdullahimohamed28/" target="_blank">
-        <img class="images" src="linkedinfav.webp">
-      </a>
-    </div>
-  </div>
-
-  <div class="footer">
-    <p>AMJ</p>
-  </div>
-</body>
+   <head>
+      <!-- SCRIPTS AND STYLES -->
+      <script src="script.js"></script>
+      <link rel="shortcut icon" href="/goat.ico"/>
+      <link rel="stylesheet" href="/styles.css" />
+      <!-- -------- --------- -->
+      <meta charset="UTF-8">
+      <meta name="description" content="Hey, I'm Abdullahi, a dev in Canada. I like making applications, particularly games.">
+      <meta name="viewport" content="width=device-width">
+      <link rel="preconnect" href="https://fonts.bunny.net">
+      <title>Abdullahi</title>
+      <link rel="canonical" href="https://Abdullahi.tech">
+      <!-- og meta -->
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="Abdullahi's portfolio">
+      <meta property="og:description" content="Hey, I'm Abdullahi, a dev based in Toronto, Canada. I like making applications, particularly games.">
+      <meta property="og:url" content="https://Abdullahi.tech">
+   </head>
+   <body class="bg-background pretty-scrollbar font-sans mx-auto min-h-screen max-w-900px flex flex-col px-6 py-8 md:gap-20 md:py-16 text-neutral-400 text-sm relative">
+      <main class="flex flex-col gap-20">
+         <header class="flex justify-between items-center">
+            <span> Abdullahi's portfolio </span> 
+            <span class="flex">
+               <a href="https://github.com/AbdullahiM28" target="_blank" rel="noopener" class="hover:text-primary cursor-pointer text-xl pa-1 relative" aria-label="GitHub" title="GitHub">
+                  <div class="i-tabler:brand-github"></div>
+               </a>
+               <a href="https://www.linkedin.com/in/abdullahimohamed28/" target="_blank" rel="noopener" class="hover:text-primary cursor-pointer text-xl pa-1 relative" aria-label="Linkedin" title="Linkedin">
+                  <div class="i-tabler:brand-linkedin"></div>
+               </a>
+            </span>
+         </header>
+         <section class="flex flex-col gap-5 relative">
+            <h1 class="text-3xl font-light text-neutral-100">
+               <div class="text-xl">Hello World,</div>
+               I'm Abdullahi Mohamed
+            </h1>
+               
+            <div>
+               <!-- TEXT ANIMATION STARTS -->
+               <div>I'm
+                  <a class="max-w-500px mt-0 typewrite" data-period="3000" 
+                     data-type='[ "a yasuo one-trick", "a dev", "a pineapple on pizza hater 🤮" ]'>
+                     <span class="wrap"></span>
+                  </a>
+                  with a major in Computational Mathematics at the University of Waterloo.
+               </div>
+               <!-- TEXT ANIMATION ENDS -->
+               <p class="max-w-500px mt-0">
+                  I like making games sometimes.
+               </p>
+            </div>
+         </section>
+         <section class="flex flex-col gap-4">
+            <header class="flex justify-between items-center">
+               <h2 class="text-lg text-neutral-100">Some of my projects</h2>
+               <span> <a class="hover:text-neutral-100 cursor-pointer underline decoration-dashed underline-offset-8px lh-loose transition" href="https://github.com/AbdullahiM28" rel="noopener noreferrer" target="_blank">
+               See more on GitHub
+               </a> </span> 
+            </header>
+            <div class="grid grid-cols-1 gap-4 md:grid-cols-3 sm:grid-cols-2">
+               <a class="group flex w-full cursor-pointer flex-col justify-between gap-2 rounded-md border border-neutral-700 p-4 transition-all duration-300 hover:-translate-y-5px hover:border-primary" href="https://it-tools.tech/" target="_blank" rel="noopener">
+                  <div class="flex flex-col gap-2">
+                     <p class="text-neutral-100 text-16px truncate">Biquadris</p>
+                     <p class="md:line-clamp-2">A clone/remaking of tetris, following OOP principles and in C++</p>
+                     <div class="flex gap-1 pt-1 flex-wrap"> <span class="text-xs bg-white bg-op-3 text-neutral-400 px-2 py-1 rounded-lg">C++</span><span class="text-xs bg-white bg-op-3 text-neutral-400 px-2 py-1 rounded-lg">Object Oriented Programming</span> </div>
+                  </div>
+               </a>
+            </div>
+         </section>
+         <header class="flex justify-between items-center text-neutral-600 pt-5">
+            <span> © 2024 Abdullahi Mohamed. </span> 
+            <span class="flex">
+               <a href="https://github.com/AbdullahiM28" target="_blank" rel="noreferrer" class="hover:text-primary cursor-pointer text-xl pa-1 relative group" aria-label="GitHub" title="GitHub">
+                  <div class="i-tabler:brand-github"></div>
+               </a>
+               <a href="https://www.linkedin.com/in/abdullahimohamed28/" target="_blank" rel="noreferrer" class="hover:text-primary cursor-pointer text-xl pa-1 relative group" aria-label="Linkedin" title="Linkedin">
+                  <div class="i-tabler:brand-linkedin"></div>
+               </a>
+            </span>
+         </header>
+      </main>
+   </body>
 </html>
