@@ -55,3 +55,7 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid white}";
     document.body.appendChild(css);
 };
+
+
+// automatically get the year
+document.getElementById("year").innerHTML = (new Date).getFullYear();
